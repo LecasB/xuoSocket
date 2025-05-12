@@ -2,9 +2,7 @@ version: 1.0
 runtime: nodejs18
 
 build:
-  command: npm install
+  commands: npm install
 
 start:
   command: node index.js
-
-
